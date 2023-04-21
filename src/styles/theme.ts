@@ -19,8 +19,6 @@ declare module 'styled-components' {
 
 export const theme = {
   colors: {
-    // primary: '#513b99',
-    // secondary: '#dbff5b',
     primary: '#FFC107',
     secondary: '#FF5722',
     Gryffindor: '#7F0909',
