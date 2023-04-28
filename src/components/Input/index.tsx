@@ -1,3 +1,4 @@
+import { ChangeEventHandler } from 'react';
 import { Container, Label, StyledInput } from './style';
 
 const Input = ({
@@ -11,7 +12,7 @@ const Input = ({
   name: string;
   type?: string;
   label?: string;
-  onChange: any;
+  onChange: ChangeEventHandler<HTMLInputElement> | undefined;
 }) => {
   return (
     <Container>
